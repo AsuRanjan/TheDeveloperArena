@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Developer Arena
 
 This repository contains all weekly tasks completed during my
@@ -41,3 +42,7 @@ TheDeveloperArena/
 ## Internship Duration
 
 June 2026 - September 2026
+=======
+# TheDeveloperArena
+Internship projects completed during The Developer Arena Program.
+>>>>>>> 4bed860404d62be2511dc95ec52a8ab53ce38938
