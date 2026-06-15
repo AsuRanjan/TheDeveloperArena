@@ -1,0 +1,13 @@
+# Personal Portfolio Website - Week 1
+
+Project Type: Static HTML Website
+
+Dependencies:
+- None
+
+Requirements:
+- Web Browser (Chrome, Edge, Firefox, etc.)
+- Visual Studio Code (Recommended)
+- Git (Optional)
+- GitHub Account (Optional)
+
