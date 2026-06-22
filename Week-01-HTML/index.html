@@ -4,13 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ashutosh Ranjan Portfolio - Web Developer Intern project built using HTML and CSS">
+    <meta name="keywords" content="HTML, CSS, Portfolio, Web Development, Developer">
+    <meta name="author" content="Ashutosh Ranjan">
+
     <title>Ashutosh Ranjan | Portfolio</title>
+
+    <link rel="icon" type="image/png" href="images/profile.jpg">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="../Week-02-CSS/style.css">
+
 </head>
 
-<body id="top" rightmargin="50" leftmargin="50">
+<body id="top">
+
+    <a href="#main" class="visually-hidden">Skip to content</a>
 
     <!-- Header Section -->
-    <header>
+    <header class="hero">
 
         <h1>Ashutosh Ranjan</h1>
 
@@ -18,32 +32,36 @@
             Aspiring Full Stack Developer | The Developer Arena Intern
         </p>
 
-        <nav>
+        <nav class="navbar">
 
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#projects">Projects</a> |
-            <a href="#gallery">Gallery</a> |
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#gallery">Gallery</a>
             <a href="#contact">Contact</a>
+            <a href="#connect">Connect</a>
 
         </nav>
 
-        <hr>
+        
 
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main id="main">
+
+        <h2 class="visually-hidden">
+            Portfolio Main Content
+        </h2>
 
         <!-- About Section -->
-        <section id="about">
+        <section id="about" class="card">
 
             <h2>About Me</h2>
 
             <img
                 src="images/profile.jpg"
-                alt="Profile picture of Ashutosh Ranjan"
-                width="70"> 
+                alt="Profile picture of Ashutosh Ranjan"> 
 
             <p>
                 Hello! My name is Ashutosh Ranjan.
@@ -63,10 +81,10 @@
 
         </section>
 
-        <hr>
+        
 
         <!-- Skills Section -->
-        <section id="skills">
+        <section id="skills" class="card">
 
             <h2>Skills</h2>
 
@@ -92,14 +110,14 @@
 
         </section>
 
-        <hr>
+        
 
         <!-- Projects Section -->
-        <section id="projects">
+        <section id="projects" class="card">
 
             <h2>Projects</h2>
 
-            <article>
+            <article class="project-item">
 
                 <h3>Portfolio Website</h3>
 
@@ -110,7 +128,7 @@
 
             </article>
 
-            <article>
+            <article class="project-item">
 
                 <h3>Future Projects</h3>
 
@@ -123,44 +141,59 @@
 
         </section>
 
-        <hr>
 
-        <!-- Gallery Section -->
-        <section id="gallery">
+        <section id="goals" class="card">
 
-            <h2>Image Gallery</h2>
+            <h2>
+                Career Goals
+            </h2>
 
-            <img
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-                alt="Learning HTML"
-                width="240">
-
-            
-
-            <img
-                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
-                alt="Coding workspace"
-                width="240">
-
-            
-
-            <img
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
-                alt="Web development journey"
-                width="240">
+                <p>
+                    My objective is to become a Full Stack Developer,
+                    contribute to real-world projects,
+                    and build scalable web applications.
+                </p>
 
         </section>
 
-        <hr>
+        
 
-        <!-- Contact Section -->
-        <section id="contact">
+        <!-- Gallery Section -->
+        <section id="gallery" class="card">
+
+            <h2>Image Gallery</h2>
+
+            <p>
+                A collection of images representing my learning journey
+                in web development.
+            </p>
+
+            <img
+                src="images/gallery1.jpg"
+                alt="Learning HTML">
+
+            
+
+            <img
+                src="images/gallery2.jpg"
+                alt="Coding workspace">
+
+            
+
+            <img
+                src="images/gallery3.jpg"
+                alt="Web development journey">
+
+        </section>
 
         
 
-            <form>
+        <!-- Contact Section -->
+        <section id="contact" class="card">
+
+            <form action="#">
               <fieldset>
-                <legend><h2>Contact Me</h2></legend>
+                <legend>Contact Me</legend>
 
                 <label for="name">
                     Full Name:
@@ -202,6 +235,8 @@
                     type="tel"
                     id="phone"
                     name="phone"
+                    pattern="[0-9]{10}"
+                    maxlength="10"
                     placeholder="Ex: 1234567890">
 
                 <br><br>
@@ -213,7 +248,7 @@
                 <br>
 
                 <textarea
-                    placeholder="Ex: Share your valuable feedback."
+                    placeholder="Ex: Write your message here."
                     id="message"
                     name="message"
                     rows="6"
@@ -235,54 +270,66 @@
 
         </section>
 
-        <hr>
+        
 
         <!-- External Links -->
-        <section>
+        <section id="connect" class="card">
 
             <h2>Connect With Me</h2>
 
-            <ul>
+                <ul class="social-links">
 
-                <li>
-                    <a href="https://github.com/AsuRanjan"
-                       target="_blank">
-                        GitHub
-                    </a>
-                </li>
+                    <li>
+                        <a href="https://github.com/AsuRanjan"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                <li>
-                    <a href="https://linkedin.com/in/yourprofile"
-                       target="_blank">
-                        LinkedIn
-                    </a>
-                </li>
+                            <i class="fab fa-github"></i>
+                                GitHub
+                            
 
-                <li>
-                    <a href="https://twitter.com/yourusername"
-                       target="_blank">
-                        Twitter
-                    </a>
-                </li>
+                        </a>
+                    </li>
 
-            </ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ashutosh-ranjan-83989b259"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                            <i class="fab fa-linkedin"></i>
+                                LinkedIn
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://x.com/asu840"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                            <i class="fab fa-x-twitter"></i>
+                                 Twitter
+
+                        </a>
+                    </li>
+
+                </ul>
 
         </section>
 
     </main>
 
-    <hr>
+    
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
 
         <p>
             © 2026 Ashutosh Ranjan
         </p>
 
         <p>
-            Built as part of The Developer Arena Internship
-            Week 1 HTML Project.
+            Built with HTML5 and CSS3 as part of The Developer Arena Internship Program.
         </p>
 
         <a href="#top">
