@@ -9,7 +9,7 @@ Web Development Internship at The Developer Arena.
 | Week   | Topic             |    Status    |
 |--------|-------------------|--------------|
 | Week 1 | HTML              | ✅ Completed |
-| Week 2 | CSS               |  ⏳ Pending  |
+| Week 2 | CSS               | ✅ Pending   |
 | Week 3 | JavaScript        |  ⏳ Pending  |
 | Week 4 | Responsive Design |  ⏳ Pending  |
 
