@@ -1,0 +1,78 @@
+
+Project Structure:
+Week-01-HTML/
+    index.html
+
+Week-02-CSS/
+    style.css
+
+Week-03-JavaScript
+│
+├── docs
+│   ├── JavaScript-Features.md
+│   ├── DOM-Manipulation.md
+│   ├── Form-Validation.md
+│   ├── Gallery-Features.md
+│   ├── LocalStorage.md
+│   ├── Navbar-Glass-Effect.md
+│   └── Screenshots.md
+│
+├── README.md
+├── requirements.txt
+└── script.js
+
+
+Week 03 JavaScript Requirements
+
+Completed Features
+
+✓ JavaScript Fundamentals
+
+✓ Variables
+
+✓ Functions
+
+✓ Arrays
+
+✓ Objects
+
+✓ DOM Manipulation
+
+✓ Event Handling
+
+✓ Form Validation
+
+✓ Local Storage
+
+✓ Session Storage
+
+✓ Timers
+
+✓ Digital Clock
+
+✓ Dynamic Greeting
+
+✓ Image Gallery
+
+✓ Keyboard Navigation
+
+✓ Auto Slideshow
+
+✓ Scroll Progress Indicator
+
+✓ Character Counter
+
+✓ Live Preview
+
+✓ Random Quotes
+
+✓ Apple Style Glass Navigation
+
+✓ Responsive Design
+
+Status
+
+Completed
+
+
+

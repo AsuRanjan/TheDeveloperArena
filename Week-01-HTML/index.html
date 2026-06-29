@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ashutosh Ranjan Portfolio - Web Developer Intern project built using HTML and CSS">
-    <meta name="keywords" content="HTML, CSS, Portfolio, Web Development, Developer">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Web Development, Developer">
     <meta name="author" content="Ashutosh Ranjan">
 
     <title>Ashutosh Ranjan | Portfolio</title>
+
+    <meta
+    name="description"
+    content="Personal Portfolio Website of Ashutosh Ranjan built using HTML, CSS and JavaScript.">
 
     <link rel="icon" type="image/png" href="images/profile.jpg">
 
@@ -26,21 +30,24 @@
     <!-- Header Section -->
     <header class="hero">
 
-        <h1>Ashutosh Ranjan</h1>
+        <p id="greeting"></p>
+
+        <h1 id="heroTitle">I'm Ashutosh Ranjan</h1>
 
         <p>
             Aspiring Full Stack Developer | The Developer Arena Intern
         </p>
 
-        <nav class="navbar">
+        <p id="live-clock"></p>
 
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-            <a href="#connect">Connect</a>
-
+        <nav class="navbar" id="navbar">
+            <span class="nav-liquid"></span>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#connect">Connect</a>
         </nav>
 
         
@@ -123,7 +130,7 @@
 
                 <p>
                     A beginner portfolio website built using
-                    semantic HTML tags.
+                    semantic HTML tags, CSS and JavaScript.
                 </p>
 
             </article>
@@ -141,7 +148,7 @@
 
         </section>
 
-
+        <!-- Career Goals -->
         <section id="goals" class="card">
 
             <h2>
@@ -153,6 +160,8 @@
                     contribute to real-world projects,
                     and build scalable web applications.
                 </p>
+
+                <p id="developer-quote"></p>
 
         </section>
 
@@ -169,18 +178,21 @@
             </p>
 
             <img
+                class="gallery-image"
                 src="images/gallery1.jpg"
                 alt="Learning HTML">
 
             
 
             <img
+                class="gallery-image"
                 src="images/gallery2.jpg"
                 alt="Coding workspace">
 
             
 
             <img
+                class="gallery-image"
                 src="images/gallery3.jpg"
                 alt="Web development journey">
 
@@ -191,7 +203,7 @@
         <!-- Contact Section -->
         <section id="contact" class="card">
 
-            <form action="#">
+            <form id="contactForm" action="#">
               <fieldset>
                 <legend>Contact Me</legend>
 
@@ -257,7 +269,7 @@
 
                 <br><br>
 
-                <button type="submit">
+                <button type="submit" id="submitBtn">
                     Send Message
                 </button>
 
@@ -322,7 +334,7 @@
     
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
 
         <p>
             © 2026 Ashutosh Ranjan
@@ -338,6 +350,13 @@
 
     </footer>
 
+    <script src="../Week-03-JavaScript/script.js"></script>
+
 </body>
 
 </html>
+
+
+
+
+
