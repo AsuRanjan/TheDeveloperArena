@@ -25,7 +25,7 @@ This repository demonstrates my progress from HTML fundamentals to responsive we
 | Week 01 | HTML5 Fundamentals     | ✅ Completed |
 | Week 02 | CSS3 Styling & Layout  | ✅ Completed |
 | Week 03 | JavaScript Programming | ✅ Completed |
-| Week 04 | Responsive Web Design  | ⏳ Pending   |
+| Week 04 | Responsive Web Design  | ✅ Completed |
 | Week 05 | Bootstrap              | ⏳ Pending   |
 | Week 06 | Git & GitHub           | ⏳ Pending   |
 | Week 07 | React.js               | ⏳ Pending   |
