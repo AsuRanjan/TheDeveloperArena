@@ -105,7 +105,7 @@ Week-05-AdvancedCSS
 
 # 📸 Screenshots
 
-Place your project screenshots inside
+Place for project screenshots inside
 
 ```
 screenshots/
@@ -184,7 +184,7 @@ docs/Resume.pdf
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/AsuRanjan/TheDeveloperArena/tree/main/Week-05-AdvancedCSS
 ```
 
 ---
