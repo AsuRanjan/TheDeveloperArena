@@ -20,16 +20,20 @@ This repository demonstrates my progress from HTML fundamentals to responsive we
 
 # 📅 Weekly Progress
 
-| Week    | Module                 | Status       |
-| ------- | ---------------------- | ------------ |
-| Week 01 | HTML5 Fundamentals     | ✅ Completed |
-| Week 02 | CSS3 Styling & Layout  | ✅ Completed |
-| Week 03 | JavaScript Programming | ✅ Completed |
-| Week 04 | Responsive Web Design  | ✅ Completed |
-| Week 05 | Bootstrap              | ⏳ Pending   |
-| Week 06 | Git & GitHub           | ⏳ Pending   |
-| Week 07 | React.js               | ⏳ Pending   |
-| Week 08 | Final Project          | ⏳ Pending   |
+| Week    | Module                                        | Status       |
+| ------- | --------------------------------------------- | ------------ |
+| Week 01 | HTML5 Fundamentals                            | ✅ Completed |
+| Week 02 | CSS3 Styling & Layout                         | ✅ Completed |
+| Week 03 | JavaScript Programming                        | ✅ Completed |
+| Week 04 | Complete Web Development Project              | ✅ Completed |
+| Week 05 | Advanced CSS & Modern Layouts                 | ✅ Completed |
+| Week 06 | Advanced JavaScript & APIs                    | ⏳ Pending   |
+| Week 07 | Introduction to React.js                      | ⏳ Pending   |
+| Week 08 | Capstone Project - Full Frontend Application  | ⏳ Pending   |
+| Week 09 | Node.js & Backend Development                 | ⏳ Pending   |
+| Week 10 | Database Integration with MongoDB             | ⏳ Pending   |
+| Week 11 | Full Stack Application Development            | ⏳ Pending   |
+| Week 12 | Advanced Features & Career Preparation        | ⏳ Pending   |
 
 ---
 

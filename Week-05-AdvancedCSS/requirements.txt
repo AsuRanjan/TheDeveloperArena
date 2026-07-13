@@ -1,0 +1,66 @@
+=========================================================
+THE DEVELOPER ARENA INTERNSHIP
+Week 05 - Advanced CSS & Modern Layouts
+=========================================================
+
+PROJECT TITLE
+
+Personal Portfolio - Advanced CSS & Modern Layouts
+
+---------------------------------------------------------
+
+THEORY CONCEPTS
+
+✔ CSS Grid
+✔ Advanced Flexbox
+✔ CSS Variables
+✔ Animations & Transitions
+✔ Advanced Selectors
+✔ BEM Methodology
+
+---------------------------------------------------------
+
+TECHNICAL REQUIREMENTS
+
+✔ CSS Grid for Main Layout
+✔ CSS Variables for Theme
+✔ Smooth Animations
+✔ Mobile First Responsive Design
+✔ Advanced Selectors
+✔ BEM Naming Convention
+
+---------------------------------------------------------
+
+PROJECT FEATURES
+
+✔ Responsive Navigation
+✔ Hero Section
+✔ About Section
+✔ Skills Section
+✔ Experience Section
+✔ Projects Section
+✔ Contact Section
+✔ Theme Switcher
+✔ Responsive Layout
+✔ Glassmorphism Design
+
+---------------------------------------------------------
+
+TECHNOLOGIES
+
+HTML5
+CSS3
+JavaScript
+Git
+GitHub
+
+---------------------------------------------------------
+
+AUTHOR
+
+Ashutosh Ranjan
+
+The Developer Arena Internship
+
+Week 05 - Advanced CSS & Modern Layouts
+
