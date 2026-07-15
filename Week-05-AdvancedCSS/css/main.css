@@ -231,7 +231,7 @@ body{
 
     color:var(--gray-900);
 
-    overflow-x:hidden;
+    overflow:hidden;
 
     line-height:1.7;
 
@@ -240,6 +240,10 @@ body{
     text-rendering:optimizeLegibility;
 
     -webkit-font-smoothing:antialiased;
+
+    overflow:hidden;
+
+    overflow-y:auto;
 
 }
 
@@ -6540,6 +6544,9 @@ img[loading="lazy"]{
     }
 
 }
+
+
+
 
 
 

@@ -1943,11 +1943,27 @@ body{
 
 .scroll-progress{
 
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:0;
+
+    height:4px;
+
+    z-index:9999;
+
+    background:linear-gradient(
+        90deg,
+        #3b82f6,
+        #8b5cf6
+    );
+
     transform-origin:left center;
 
-    transition:
-
-        width .15s linear;
+    transition:width .15s linear;
 
 }
 
